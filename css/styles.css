@@ -175,6 +175,9 @@ img{
 
 .course-widget__label, .course-widget__info{font-size: 2rem;}
 
+/* ABOUT US PAGE */
+
+
 /* FOOTER */
 .footer{
     background-color: var(--black);
@@ -213,5 +216,12 @@ img{
        display: grid;
        grid-template-columns: 2fr 1fr;
        column-gap: 4rem;
+   }
+
+   /*ABOUT US PAGE*/
+   .about-us{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       column-gap: 3rem;
    }
 }
