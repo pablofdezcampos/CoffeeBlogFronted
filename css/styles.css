@@ -75,7 +75,7 @@ img{
     text-align: center;
 }
 
-/*  COMPONENTS */
+/* COMPONENTS */
 .button{
     display: block;
     font-family: var(--headingFont);
@@ -149,7 +149,7 @@ img{
     margin-top: 2rem;
 }
 
-/*ASIDE COURSES*/
+/*ASIDE COURSES AND COURSES PAGE*/
 .courses{
     list-style: none;
 }
@@ -164,18 +164,26 @@ img{
     margin-bottom: 0;
 }
 
-.course-widget__label{
+.course-widget__label, .course__label, .course__description{
     font-family: var(--headingFont);
     font-weight: bold;
 }
 
-.course-widget__info{
+.course-widget__info, .course__info{
     font-weight: normal;
 }
 
 .course-widget__label, .course-widget__info{font-size: 2rem;}
 
-/* ABOUT US PAGE */
+/* COURSES */
+.course{
+    padding: 3rem 0;
+    border-bottom: 1px solid var(--grey);
+}
+
+.course:last-of-type{
+    border: none;   
+}
 
 
 /* FOOTER */
@@ -223,5 +231,12 @@ img{
        display: grid;
        grid-template-columns: repeat(2, 1fr);
        column-gap: 3rem;
+   }
+
+   /* COURSES */
+   .course{
+      display: grid;
+      grid-template-columns: 1fr 2fr; 
+      column-gap: 2rem
    }
 }
