@@ -107,6 +107,11 @@ img{
     color: var(--white);
 }
 
+/* MAIN CONTENT*/
+.entry{
+    margin-top: 2rem;
+}
+
 /* RESPONSIVE DESIGN*/
 @media (min-width: 768px) {
     /* HEADER */
@@ -123,5 +128,12 @@ img{
    .navegation{
        display: flex;
        gap: 1rem;
+   }
+
+   /* MAIN CONTENT */
+   .main-content{
+       display: grid;
+       grid-template-columns: 2fr 1fr;
+       column-gap: 4rem;
    }
 }
