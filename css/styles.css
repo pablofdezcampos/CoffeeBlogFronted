@@ -9,6 +9,7 @@
     --primaryColor: #784D3C;
     --white: #ffffff;
     --black: #000000;
+    --grey: #e1e1e1;
 }
 
 html{
@@ -27,8 +28,9 @@ body{
 }
 
 .container{
-    max-width: 120rem;
-    width: 90%;
+    /*max-width: 120rem;
+    width: 90%;*/
+    width: min(90%, 120rem);
     margin: 0 auto;
 }
 
@@ -73,6 +75,28 @@ img{
     text-align: center;
 }
 
+/*  COMPONENTS */
+.button{
+    display: block;
+    font-family: var(--headingFont);
+    color: var(--white);
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+}
+
+.button--primary{
+    background-color: var(--black);
+}
+
+.button--secondary{
+    background-color: var(--primaryColor);
+}
+
 /* HEADER */
 .header{
     background-image: url(../img/banner.jpg);
@@ -80,6 +104,10 @@ img{
     background-size: cover; /*Cover all the space*/
     background-repeat: no-repeat;
     background-position: center center; /*Align vertical and horizontal*/
+}
+
+.bar{
+    padding-top: 2rem;
 }
 
 .header__text{
@@ -109,11 +137,61 @@ img{
 
 /* MAIN CONTENT*/
 .entry{
+    border-bottom: .1rem solid var(--grey);
     margin-top: 2rem;
+}
+.entry:last-of-type{
+    border: none;
+    margin-bottom: 0;
+}
+
+.entry__title{
+    margin-top: 2rem;
+}
+
+/*ASIDE COURSES*/
+.courses{
+    list-style: none;
+}
+
+.course-widget{
+   border-bottom: 1px solid var(--grey); 
+   margin-bottom: 2rem;
+}
+
+.course-widget:last-of-type{
+    border: none;
+    margin-bottom: 0;
+}
+
+.course-widget__label{
+    font-family: var(--headingFont);
+    font-weight: bold;
+}
+
+.course-widget__info{
+    font-weight: normal;
+}
+
+.course-widget__label, .course-widget__info{font-size: 2rem;}
+
+/* FOOTER */
+.footer{
+    background-color: var(--black);
+    padding-bottom: 3rem;
+    margin-top: 3rem;
 }
 
 /* RESPONSIVE DESIGN*/
 @media (min-width: 768px) {
+
+    /* COMPONENTS */
+    .button--primary{
+        display: flex;
+        width: 25rem;
+        justify-content: center;
+    }
+
     /* HEADER */
     .header__text{
         margin-top: 18rem;
