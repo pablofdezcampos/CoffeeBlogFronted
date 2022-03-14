@@ -81,3 +81,47 @@ img{
     background-repeat: no-repeat;
     background-position: center center; /*Align vertical and horizontal*/
 }
+
+.header__text{
+    margin-top: 5rem;
+    text-align: center;
+    color: var(--white);
+}
+
+.logo{
+    color: var(--white);
+}
+
+.logo__element{
+    font-weight: 400;
+}
+
+.logo__bold{
+    font-weight: 700;
+}
+
+.navegation__link{
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--white);
+}
+
+/* RESPONSIVE DESIGN*/
+@media (min-width: 768px) {
+    /* HEADER */
+    .header__text{
+        margin-top: 18rem;
+    }
+
+    .bar{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+   }
+
+   .navegation{
+       display: flex;
+       gap: 1rem;
+   }
+}
