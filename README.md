@@ -7,7 +7,8 @@
 - HTML5 for the sctructure and elements of the page.
 - CSS3 for the styles of the elements in the page.
 - In CSS3 to take a good structure I use the metodology of BEM CSS.
-- Lazy Load, a pattern that consists of delaying the loading or initialization of an object until the moment of its use 
+- Preload, specifying resources that your page will arrive very soon, that you want to start loading early in the page's lifecycle, before the browsers main rendering.
+- Lazy Load, a pattern that consists of delaying the loading or initialization of an object until the moment of its use .
 
 # Page Structure
 - Header
