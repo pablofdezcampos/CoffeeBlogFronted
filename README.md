@@ -24,3 +24,7 @@
 - Due to in this project I do not add a Database for the Backend, I have to repeat HTML code. That is a wrong practise.
 
 # VIEW
+https://coffeblog-pf.netlify.app/
+
+# LIGTH HOUSE REPORT 
+![image](https://user-images.githubusercontent.com/57486874/158343406-c397face-5f2f-46af-ac6f-07213e59fcdd.png)
