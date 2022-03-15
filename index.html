@@ -22,8 +22,6 @@
         crossorigin="crossorigin" as="font">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Roboto:wght@300&display=swap"
         rel="stylesheet">
-
-    <link rel="stylesheet" href="img/blog1.jpg" as="image">
 </head>
 
 <body>
@@ -56,7 +54,10 @@
             <article class="entry">
 
                 <div class="entry__image">
-                    <img src="img/blog1.jpg" alt="Image blog" loading="lazy">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog1.webp" type="image/webp">
+                        <img src="img/blog1.jpg" alt="Image blog" loading="lazy">
+                    </picture>
                 </div>
 
                 <div class="entry__content">
@@ -71,7 +72,10 @@
             <article class="entry">
 
                 <div class="entry__image">
-                    <img src="img/blog2.jpg" alt="Image blog" loading="lazy">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog2.webp" type="image/webp">
+                        <img src="img/blog2.jpg" alt="Image blog" loading="lazy">
+                    </picture>
                 </div>
 
                 <div class="entry__content">
@@ -86,7 +90,10 @@
             <article class="entry">
 
                 <div class="entry__image">
-                    <img src="img/blog3.jpg" alt="Image blog" loading="lazy">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog3.webp" type="image/webp">
+                        <img src="img/blog3.jpg" alt="Image blog" loading="lazy">
+                    </picture>
                 </div>
 
                 <div class="entry__content">
@@ -154,6 +161,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="js/modernizr.js"></script>
 </body>
 
 </html>
