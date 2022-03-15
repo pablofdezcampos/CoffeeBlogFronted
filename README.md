@@ -11,7 +11,7 @@
 - Prefetch, to load the recourses we want before the user get entry. That accelerate our page.
 - Lazy Load, a pattern that consists of delaying the loading or initialization of an object until the moment of its use.
 - Webp, provides a higher compression rate for images while keeping quality intact.
-
+- JavaScript (js), to modernzr.js
 # Page Structure
 - Header
 - Footer
