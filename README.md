@@ -1,5 +1,5 @@
 # Description
-- Projec to develop a front-end web page.
+- Project to develop a front-end web page.
 - Project with responsive design.
 - Example of a coffee blog.
 
